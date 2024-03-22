@@ -536,7 +536,7 @@ footer ul li a:hover {
     display: block;
     color: black;
     background-color: white;
-    margin-left: 117%;
+    margin-left: 119%;
     font-size: 30px;
     position: absolute;
     margin-top: -18%;
@@ -983,10 +983,10 @@ button{
     display: block;
     color: black;
     background-color: white;
-    margin-left: 117%;
-    font-size: 30px;
+    margin-left: 119%;
+    font-size: 35px;
     position: absolute;
-    margin-top: -18%;
+    margin-top: -20%;
     font-weight: lighter;
     cursor: pointer;
    }
