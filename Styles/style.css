@@ -162,6 +162,10 @@ header {
   font-family: "Roboto", "Helvetica Neue", sans-serif;
 }
 
+.emphasis{
+  color: brown;
+  font-weight: lighter;
+}
 #commitment h2 {
   display: none;
 }
