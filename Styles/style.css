@@ -139,7 +139,9 @@ text-decoration: underline;
   color: grey;
 }
 
-
+.science{
+  display: none;
+}
 
 header {
   height: 100vh;
@@ -459,7 +461,7 @@ footer ul li a:hover {
   }
  
   .science{
-    display: none;
+    display: block;
   }
   .overlay {
     position: absolute;
@@ -905,9 +907,9 @@ button{
     display: block;
   }
  
-  .science{
-    display: none;
-  }
+.science{
+  display: block;
+}
   .overlay {
     position: absolute;
     top: 0;
