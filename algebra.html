@@ -1,15 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-070YXLFQYG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-070YXLFQYG');
-</script>
+    <!-- Google tag (gtag.js) -->
 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -42,7 +34,7 @@
         <a class="logo" href="Media/Images/images__2_-removebg-preview.png"></a>
       </h4>
       <p>Understand Algebra</p>
-      <i class="material-icons share"><a href="whatsapp://send?text=https://disciplina/algebra.html"       data-action="share/whatsapp/share"  
+      <i class="material-icons share"><a href="whatsapp://send?text=https://disciplina.co.za/algebra.html"       data-action="share/whatsapp/share"  
         target="_blank"><img src="Images/Icons/icons8-share-30.png" width="20px" alt=""></a></i>
     </nav>
 
@@ -473,7 +465,7 @@
   </ol>
   <p class="feedback_message">A Message here</p>
 <div class="buttons">
-  <button class="gotobtn"><a href="https://disciplina.co.za/basicmaths.html">Go to basics</a></button>  
+  <button class="gotobtn"><a href="">Go to basics</a></button>  
  
      <button class="finish">Finish</button>
 </div>
@@ -690,7 +682,7 @@
   </ol>
   <p class="feedback_message2">A Message here</p>
 <div class="buttons">
-  <button class="gotobtn"><a href="https://disciplina.co.za/basicmaths.html">Go to basics</a></button>  
+  <button class="gotobtn"><a href="">Go to basics</a></button>  
  
      <button class="finish">Finish</button>
 </div>
@@ -892,7 +884,7 @@
   </ol>
   <p class="feedback_message1">A Message here</p>
 <div class="buttons">
-  <button class="gotobtn"><a href="https://disciplina.co.za/basicmaths.html">Go to basics</a></button>  
+  <button class="gotobtn"><a href="basicmaths.html">Go to basics</a></button>  
  
      <button class="finish">Finish</button>
 </div>
@@ -2189,7 +2181,7 @@ submit4.addEventListener("click", () => {
   } else if (input4 !== answer1 && input5 !== answer2 || input4 !== answer2 && input5 !== answer1) {
     if (chances4 > 1) {
       displayMessage4(
-        "Your answer is incorrect, unfortunately. Please try again. Remember, negative integers are smaller than zero and positive integers."
+        "Your answer is incorrect, unfortunately. Please try again."
       );
       chances4--;
       question4.style.backgroundColor = "orange";
@@ -2205,7 +2197,7 @@ submit4.addEventListener("click", () => {
       mark4.textContent = chances4;
       chancesGreaterThan1();
     } else {
-      displayMessage4(`The correct answer is ${answer1} and ${answer2}. x outside the paranthesis is equal to 0. Now we left with ${interger1}x${interger2Display} = 0. Step1: Move ${interger2Display} to the right, ${interger1}x = ${theOtherSide}. Step2: divide both sides by ${interger1}, x = ${theOtherSide}/${interger1}. Therefore, x = ${answer1}.`);
+      displayMessage4(`The correct answer is ${answer1} and ${answer2}. x outside the paranthesis is equal to 0.00. Now we left with ${interger1}x${interger2Display} = 0. Step1: Move ${interger2Display} to the right, ${interger1}x = ${theOtherSide}. Step2: divide both sides by ${interger1}, x = ${theOtherSide}/${interger1}. Therefore, x = ${answer1}.`);
       mark4.textContent = 0;
       document.querySelector(".chances4").style.backgroundColor = "red";
       question4.style.backgroundColor = "red";
@@ -2270,7 +2262,7 @@ submit5.addEventListener("click", () => {
   } else if (input6 !== answer3 && input7 !== answer4 || input6 !== answer4 && input7 !== answer3) {
     if (chances5 > 1) {
       displayMessage5(
-        "Your answer is incorrect, unfortunately. Please try again. Remember, factors of 8 that give you 8 when multiplying them and give you -6 when adding them are -2 and -4."
+        "Your answer is incorrect, unfortunately. Please try again. Remember, First multiply a * c, then find factors of a * c product that give the product when multipying them and b when adding them."
       );
       chances5--;
       question5.style.backgroundColor = "orange";
@@ -2355,7 +2347,7 @@ submit6.addEventListener("click", () => {
   } else if (input8 !== answer5 && input9 !== answer6 || input8 !== answer6 && input9 !== answer5) {
     if (chances6 > 1) {
       displayMessage6(
-        "Your answer is incorrect, unfortunately. Please try again. Remember, factors of -12 that give you -12 when multiplying them and give you 1 when adding them are 4 and -3."
+        "Your answer is incorrect, unfortunately. Please try again. Remember, First multiply a * c, then find factors of a * c product that give the product when multipying them and b when adding them."
       );
       chances6--;
       question6.style.backgroundColor = "orange";
@@ -2462,7 +2454,7 @@ submit7.addEventListener("click", () => {
   } else if (input10 !== answer7a && input10a !== answer7b || input10a !== answer7a && input10 !== answer7b ) {
     if (chances7 > 1) {
       displayMessage7(
-        "Your answer is incorrect, unfortunately. Please try again. Remember the lesson from Exponents and Squareroots, they are opposite of each other. Hence, they cancel each other."
+        "Your answer is incorrect, unfortunately. Please try again. Remember, First multiply a * c, then find factors of a * c product that give the product when multipying them and b when adding them."
       );
       chances7--;
       question7.style.backgroundColor = "orange";
@@ -2478,7 +2470,7 @@ submit7.addEventListener("click", () => {
       mark7.textContent = chances7;
       chancesGreaterThan1();
     } else {
-      displayMessage7(`The correct answers are ${answer7a} and ${answer7b}. .`);
+      displayMessage7(`The correct answers are ${answer7a} and ${answer7b}. `);
       mark7.textContent = 0;
       mark7.style.backgroundColor = "red";
       question7.style.backgroundColor = "red";
