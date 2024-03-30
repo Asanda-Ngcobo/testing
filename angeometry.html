@@ -1937,12 +1937,11 @@ submit5.addEventListener("click", () => {
       chancesGreaterThan1();
       incorrectCheck();
     } else {
-      displayMessage5(`The correct answers are ${answer5}. AD is parallel to BC. Therefore, we first find the gradient of BC since we have all their coordinates. m = (Yc - Yb)/Xc - Xb), m = (${interger8} - ${interger7})/(0 - ${interger6}), m = ${gradient2}. Since AD||BC, they have equal gradient, therefore AD gradient is ${gradient2}. Now we can use the gradient and the coordinates of A to find the equation of AD. y=mx+c, ${interger5}=${gradient2}*${interger4} + c, ${interger5}=${gradientByX2}+c, ${interger5}${gradientByXLeft2}=c, c = ${b2}. Thus, equation of AD is y=${gradient2}x${bDisplay2}`);
+      displayMessage5(`The correct answers are ${answer5}. AD is parallel to BC. Therefore, Mbc = Mad . Mbc = (Yc - Yb)/Xc - Xb), m = (${interger8} - ${interger7})/(0 - ${interger6}), m = ${gradient2}. Hence, Mad = ${gradient2}. y=mx+c, ${interger5}=${gradient2}*${interger4} + c, ${interger5}=${gradientByX2}+c, ${interger5}${gradientByXLeft2}=c, c = ${b2}. Thus, equation of AD is y=${gradient2}x${bDisplay2}`);
       mark5.textContent = 0;
       document.querySelector(".chances5").style.backgroundColor = "red";
       question5.style.backgroundColor = "red";
-      question5.style.width = "100%";
-      question5.style.marginLeft = "0";
+     
       document.querySelector(".question5").style.backgroundColor = "red";
       
       document.querySelector(".label-score5").style.backgroundColor = "red";
