@@ -521,29 +521,29 @@ const normalColor = function(){
                document.querySelector('.message9').style.backgroundColor = 'black';
                document.querySelector('.chances9').style.backgroundColor = 'black';
           
-               question10.style.backgroundColor = 'black';
-             document.querySelector('.question10').style.backgroundColor = 'black';
-               document.querySelector('.label-score10').style.backgroundColor = 'black';
-               document.querySelector('.message10').style.backgroundColor = 'black';
-               document.querySelector('.chances10').style.backgroundColor = 'black';
+             //   question10.style.backgroundColor = 'black';
+             // document.querySelector('.question10').style.backgroundColor = 'black';
+             //   document.querySelector('.label-score10').style.backgroundColor = 'black';
+             //   document.querySelector('.message10').style.backgroundColor = 'black';
+             //   document.querySelector('.chances10').style.backgroundColor = 'black';
 
-               question11.style.backgroundColor = 'black';
-               document.querySelector('.question11').style.backgroundColor = 'black';
-                 document.querySelector('.label-score11').style.backgroundColor = 'black';
-                 document.querySelector('.message11').style.backgroundColor = 'black';
-                 document.querySelector('.chances11').style.backgroundColor = 'black';
+             //   question11.style.backgroundColor = 'black';
+             //   document.querySelector('.question11').style.backgroundColor = 'black';
+             //     document.querySelector('.label-score11').style.backgroundColor = 'black';
+             //     document.querySelector('.message11').style.backgroundColor = 'black';
+             //     document.querySelector('.chances11').style.backgroundColor = 'black';
 
-                 question12.style.backgroundColor = 'black';
-                 document.querySelector('.question12').style.backgroundColor = 'black';
-                   document.querySelector('.label-score12').style.backgroundColor = 'black';
-                   document.querySelector('.message12').style.backgroundColor = 'black';
-                   document.querySelector('.chances12').style.backgroundColor = 'black';
+             //     question12.style.backgroundColor = 'black';
+             //     document.querySelector('.question12').style.backgroundColor = 'black';
+             //       document.querySelector('.label-score12').style.backgroundColor = 'black';
+             //       document.querySelector('.message12').style.backgroundColor = 'black';
+             //       document.querySelector('.chances12').style.backgroundColor = 'black';
           
-                   question13.style.backgroundColor = 'black';
-                   document.querySelector('.question13').style.backgroundColor = 'black';
-                     document.querySelector('.label-score13').style.backgroundColor = 'black';
-                     document.querySelector('.message13').style.backgroundColor = 'black';
-                     document.querySelector('.chances13').style.backgroundColor = 'black';
+             //       question13.style.backgroundColor = 'black';
+             //       document.querySelector('.question13').style.backgroundColor = 'black';
+             //         document.querySelector('.label-score13').style.backgroundColor = 'black';
+             //         document.querySelector('.message13').style.backgroundColor = 'black';
+             //         document.querySelector('.chances13').style.backgroundColor = 'black';
 }
 const quizcorrect = function (){
   question.style.backgroundColor = "#60b347";
@@ -601,29 +601,29 @@ const quizcorrect = function (){
                document.querySelector('.message9').style.backgroundColor = '#60b347';
                document.querySelector('.chances9').style.backgroundColor = '#60b347';
          
-               question10.style.backgroundColor = 'black';
-               document.querySelector('.question10').style.backgroundColor = '#60b347';
-                 document.querySelector('.label-score10').style.backgroundColor = '#60b347';
-                 document.querySelector('.message10').style.backgroundColor = '#60b347';
-                 document.querySelector('.chances10').style.backgroundColor = '#60b347';
+               // question10.style.backgroundColor = 'black';
+               // document.querySelector('.question10').style.backgroundColor = '#60b347';
+               //   document.querySelector('.label-score10').style.backgroundColor = '#60b347';
+               //   document.querySelector('.message10').style.backgroundColor = '#60b347';
+               //   document.querySelector('.chances10').style.backgroundColor = '#60b347';
   
-                 question11.style.backgroundColor = 'black';
-                 document.querySelector('.question11').style.backgroundColor = '#60b347';
-                   document.querySelector('.label-score11').style.backgroundColor = '#60b347';
-                   document.querySelector('.message11').style.backgroundColor = '#60b347';
-                   document.querySelector('.chances11').style.backgroundColor = '#60b347';
+               //   question11.style.backgroundColor = 'black';
+               //   document.querySelector('.question11').style.backgroundColor = '#60b347';
+               //     document.querySelector('.label-score11').style.backgroundColor = '#60b347';
+               //     document.querySelector('.message11').style.backgroundColor = '#60b347';
+               //     document.querySelector('.chances11').style.backgroundColor = '#60b347';
   
-                   question12.style.backgroundColor = 'black';
-                   document.querySelector('.question12').style.backgroundColor = '#60b347';
-                     document.querySelector('.label-score12').style.backgroundColor = '#60b347';
-                     document.querySelector('.message12').style.backgroundColor = '#60b347';
-                     document.querySelector('.chances12').style.backgroundColor = '#60b347';
+               //     question12.style.backgroundColor = 'black';
+               //     document.querySelector('.question12').style.backgroundColor = '#60b347';
+               //       document.querySelector('.label-score12').style.backgroundColor = '#60b347';
+               //       document.querySelector('.message12').style.backgroundColor = '#60b347';
+               //       document.querySelector('.chances12').style.backgroundColor = '#60b347';
             
-                     question13.style.backgroundColor = '#60b347';
-                     document.querySelector('.question13').style.backgroundColor = '#60b347';
-                       document.querySelector('.label-score13').style.backgroundColor = '#60b347';
-                       document.querySelector('.message13').style.backgroundColor = '#60b347';
-                       document.querySelector('.chances13').style.backgroundColor = '#60b347';
+               //       question13.style.backgroundColor = '#60b347';
+               //       document.querySelector('.question13').style.backgroundColor = '#60b347';
+               //         document.querySelector('.label-score13').style.backgroundColor = '#60b347';
+               //         document.querySelector('.message13').style.backgroundColor = '#60b347';
+               //         document.querySelector('.chances13').style.backgroundColor = '#60b347';
   correctBackground();
   correctCheck();
   correctRemove();
@@ -687,29 +687,29 @@ question5.style.backgroundColor = "orange";
       document.querySelector(".message9").style.backgroundColor = "orange";
       mark9.style.backgroundColor = "orange";
 
-      question10.style.backgroundColor = 'orange';
-               document.querySelector('.question10').style.backgroundColor = 'orange';
-                 document.querySelector('.label-score10').style.backgroundColor = 'orange';
-                 document.querySelector('.message10').style.backgroundColor = 'orange';
-                 document.querySelector('.chances10').style.backgroundColor = 'orange';
+      // question10.style.backgroundColor = 'orange';
+      //          document.querySelector('.question10').style.backgroundColor = 'orange';
+      //            document.querySelector('.label-score10').style.backgroundColor = 'orange';
+      //            document.querySelector('.message10').style.backgroundColor = 'orange';
+      //            document.querySelector('.chances10').style.backgroundColor = 'orange';
   
-                 question11.style.backgroundColor = 'black';
-                 document.querySelector('.question11').style.backgroundColor = 'orange';
-                   document.querySelector('.label-score11').style.backgroundColor = 'orange';
-                   document.querySelector('.message11').style.backgroundColor = 'orange';
-                   document.querySelector('.chances11').style.backgroundColor = 'orange';
+      //            question11.style.backgroundColor = 'black';
+      //            document.querySelector('.question11').style.backgroundColor = 'orange';
+      //              document.querySelector('.label-score11').style.backgroundColor = 'orange';
+      //              document.querySelector('.message11').style.backgroundColor = 'orange';
+      //              document.querySelector('.chances11').style.backgroundColor = 'orange';
   
-                   question12.style.backgroundColor = 'black';
-                   document.querySelector('.question12').style.backgroundColor = 'orange';
-                     document.querySelector('.label-score12').style.backgroundColor = 'orange';
-                     document.querySelector('.message12').style.backgroundColor = 'orange';
-                     document.querySelector('.chances12').style.backgroundColor = 'orange';
+      //              question12.style.backgroundColor = 'black';
+      //              document.querySelector('.question12').style.backgroundColor = 'orange';
+      //                document.querySelector('.label-score12').style.backgroundColor = 'orange';
+      //                document.querySelector('.message12').style.backgroundColor = 'orange';
+      //                document.querySelector('.chances12').style.backgroundColor = 'orange';
             
-                     question13.style.backgroundColor = 'orange';
-                     document.querySelector('.question13').style.backgroundColor = 'orange';
-                       document.querySelector('.label-score13').style.backgroundColor = 'orange';
-                       document.querySelector('.message13').style.backgroundColor = 'orange';
-                       document.querySelector('.chances13').style.backgroundColor = 'orange';
+      //                question13.style.backgroundColor = 'orange';
+      //                document.querySelector('.question13').style.backgroundColor = 'orange';
+      //                  document.querySelector('.label-score13').style.backgroundColor = 'orange';
+      //                  document.querySelector('.message13').style.backgroundColor = 'orange';
+      //                  document.querySelector('.chances13').style.backgroundColor = 'orange';
  
   chancesGreaterThan1();
   incorrectCheck();
