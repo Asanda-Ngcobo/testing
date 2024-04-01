@@ -1857,6 +1857,17 @@ overlay.classList.remove("hide");
 if(interger1 < 0 && interger6 > 0 && interger7 > 0){
   interger6 = interger6 * -1; 
 }
+if (interger6 === 0){
+      interger6 = 1;
+    }
+  for (let i = 0; i < generated6.length; i++) {
+    generated6[i].textContent = interger6;
+    
+    if(interger6 >= 0){
+      generated6[i].textContent = `+${interger6}`;
+    }
+  }
+console.log(interger6)
 answer7 = (interger7).toString();
  answer7b = (interger6 * -1).toFixed();
   });
@@ -1943,6 +1954,7 @@ document.querySelector(".next7").addEventListener("click", () => {
   question7.classList.add("notshown");
   question8.classList.remove("notshown");
   backgroundColor();
+  remove();
   pDisplay = interger6;
   if(interger6 > 0) {
 pDisplay = `+${interger6}`;
@@ -2051,6 +2063,7 @@ else if (input8  !== answer8 ){
         question8.classList.add('notshown')
         question9.classList.remove('notshown')
         backgroundColor();
+        remove();
        
         answer9 = ((interger1 / interger6) + interger7).toFixed(2);
       
@@ -2143,6 +2156,7 @@ document.querySelector('.next9').addEventListener('click', ()=>{
         question9.classList.add('notshown')
         question10.classList.remove('notshown')
         backgroundColor();
+        remove();
        xAsympt = interger6 * -1;
         c = interger7 + (xAsympt * 1 * -1);
         cDisplay = c;
