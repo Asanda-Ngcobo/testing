@@ -2216,7 +2216,7 @@ document.querySelector('.next9').addEventListener('click', ()=>{
 
 else if (input10 !== answer10 || input10 !== answer10a && input10b !== answer10b || input10b !== answer10c || input10 !== answer10b || input10 !== answer10c && input10b !== answer10 || input10b !== answer10a){
     if (chances10 > 1){
-            displayMessage10('Your answer is incorrect, unfortunately. Please try again. Remember to find y, simply substistute x with the given x value.');
+            displayMessage10('Your answer is incorrect, unfortunately. Please try again. Remember, the axis of symmetry intersects at the same point where the two asymptotes intersect..');
             chances10--;
             question10.style.backgroundColor = "orange";
 
@@ -2232,7 +2232,7 @@ else if (input10 !== answer10 || input10 !== answer10a && input10b !== answer10b
             incorrectCheck();
     }
     else{
-        displayMessage10(`The correct answer is ${answer10}. F(x) = x^3${cubic}, f(${interger1}) = ${interger1}^3${cubic}, f(${interger1}) = ${interger1Cubic}${cubic}, f(${interger1}) = ${answer10}.`);
+        displayMessage10(`The correct answers is ${answer10a} & ${answer10c}`);
         mark10.textContent = 0;
         document.querySelector('.chances10').style.backgroundColor = 'red';
         question10.style.backgroundColor = 'red';
@@ -2299,6 +2299,11 @@ if(mark7.textContent < 2 ){
 
   else if (mark9.textContent < 3 ){
   feedbackMessage2('To find y-intercept, you simple substitute x with zero, and then solve for y. ')
+
+}
+
+else if (mark10.textContent < 3 ){
+  feedbackMessage2('The axis of symmetry intersects at the same point where the two asymptotes intersect.Please try the quiz again ')
 
 }
 
