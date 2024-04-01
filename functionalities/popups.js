@@ -464,6 +464,7 @@ const chancesLessThan1 = function () {
 };
 
 const normalColor = function(){
+  
   question.style.backgroundColor = "black";
   document.querySelector(".question").style.backgroundColor = "#black";
   document.querySelector(".label-score").style.backgroundColor = "black";
@@ -521,31 +522,34 @@ const normalColor = function(){
                document.querySelector('.message9').style.backgroundColor = 'black';
                document.querySelector('.chances9').style.backgroundColor = 'black';
           
-             //   question10.style.backgroundColor = 'black';
-             // document.querySelector('.question10').style.backgroundColor = 'black';
-             //   document.querySelector('.label-score10').style.backgroundColor = 'black';
-             //   document.querySelector('.message10').style.backgroundColor = 'black';
-             //   document.querySelector('.chances10').style.backgroundColor = 'black';
+            //    question10.style.backgroundColor = 'black';
+            //  document.querySelector('.question10').style.backgroundColor = 'black';
+            //    document.querySelector('.label-score10').style.backgroundColor = 'black';
+            //    document.querySelector('.message10').style.backgroundColor = 'black';
+            //    document.querySelector('.chances10').style.backgroundColor = 'black';
 
-             //   question11.style.backgroundColor = 'black';
-             //   document.querySelector('.question11').style.backgroundColor = 'black';
-             //     document.querySelector('.label-score11').style.backgroundColor = 'black';
-             //     document.querySelector('.message11').style.backgroundColor = 'black';
-             //     document.querySelector('.chances11').style.backgroundColor = 'black';
+            //    question11.style.backgroundColor = 'black';
+            //    document.querySelector('.question11').style.backgroundColor = 'black';
+            //      document.querySelector('.label-score11').style.backgroundColor = 'black';
+            //      document.querySelector('.message11').style.backgroundColor = 'black';
+            //      document.querySelector('.chances11').style.backgroundColor = 'black';
 
-             //     question12.style.backgroundColor = 'black';
-             //     document.querySelector('.question12').style.backgroundColor = 'black';
-             //       document.querySelector('.label-score12').style.backgroundColor = 'black';
-             //       document.querySelector('.message12').style.backgroundColor = 'black';
-             //       document.querySelector('.chances12').style.backgroundColor = 'black';
+            //      question12.style.backgroundColor = 'black';
+            //      document.querySelector('.question12').style.backgroundColor = 'black';
+            //        document.querySelector('.label-score12').style.backgroundColor = 'black';
+            //        document.querySelector('.message12').style.backgroundColor = 'black';
+            //        document.querySelector('.chances12').style.backgroundColor = 'black';
           
-             //       question13.style.backgroundColor = 'black';
-             //       document.querySelector('.question13').style.backgroundColor = 'black';
-             //         document.querySelector('.label-score13').style.backgroundColor = 'black';
-             //         document.querySelector('.message13').style.backgroundColor = 'black';
-             //         document.querySelector('.chances13').style.backgroundColor = 'black';
+            //        question13.style.backgroundColor = 'black';
+            //        document.querySelector('.question13').style.backgroundColor = 'black';
+            //          document.querySelector('.label-score13').style.backgroundColor = 'black';
+            //          document.querySelector('.message13').style.backgroundColor = 'black';
+            //          document.querySelector('.chances13').style.backgroundColor = 'black';
 }
 const quizcorrect = function (){
+  correctBackground();
+  correctCheck();
+  correctRemove();
   question.style.backgroundColor = "#60b347";
   document.querySelector(".question").style.backgroundColor = "#60b347";
   document.querySelector(".label-score").style.backgroundColor = "#60b347";
@@ -601,36 +605,36 @@ const quizcorrect = function (){
                document.querySelector('.message9').style.backgroundColor = '#60b347';
                document.querySelector('.chances9').style.backgroundColor = '#60b347';
          
-               // question10.style.backgroundColor = 'black';
-               // document.querySelector('.question10').style.backgroundColor = '#60b347';
-               //   document.querySelector('.label-score10').style.backgroundColor = '#60b347';
-               //   document.querySelector('.message10').style.backgroundColor = '#60b347';
-               //   document.querySelector('.chances10').style.backgroundColor = '#60b347';
+              //  question10.style.backgroundColor = 'black';
+              //  document.querySelector('.question10').style.backgroundColor = '#60b347';
+              //    document.querySelector('.label-score10').style.backgroundColor = '#60b347';
+              //    document.querySelector('.message10').style.backgroundColor = '#60b347';
+              //    document.querySelector('.chances10').style.backgroundColor = '#60b347';
   
-               //   question11.style.backgroundColor = 'black';
-               //   document.querySelector('.question11').style.backgroundColor = '#60b347';
-               //     document.querySelector('.label-score11').style.backgroundColor = '#60b347';
-               //     document.querySelector('.message11').style.backgroundColor = '#60b347';
-               //     document.querySelector('.chances11').style.backgroundColor = '#60b347';
+              //    question11.style.backgroundColor = 'black';
+              //    document.querySelector('.question11').style.backgroundColor = '#60b347';
+              //      document.querySelector('.label-score11').style.backgroundColor = '#60b347';
+              //      document.querySelector('.message11').style.backgroundColor = '#60b347';
+              //      document.querySelector('.chances11').style.backgroundColor = '#60b347';
   
-               //     question12.style.backgroundColor = 'black';
-               //     document.querySelector('.question12').style.backgroundColor = '#60b347';
-               //       document.querySelector('.label-score12').style.backgroundColor = '#60b347';
-               //       document.querySelector('.message12').style.backgroundColor = '#60b347';
-               //       document.querySelector('.chances12').style.backgroundColor = '#60b347';
+              //      question12.style.backgroundColor = 'black';
+              //      document.querySelector('.question12').style.backgroundColor = '#60b347';
+              //        document.querySelector('.label-score12').style.backgroundColor = '#60b347';
+              //        document.querySelector('.message12').style.backgroundColor = '#60b347';
+              //        document.querySelector('.chances12').style.backgroundColor = '#60b347';
             
-               //       question13.style.backgroundColor = '#60b347';
-               //       document.querySelector('.question13').style.backgroundColor = '#60b347';
-               //         document.querySelector('.label-score13').style.backgroundColor = '#60b347';
-               //         document.querySelector('.message13').style.backgroundColor = '#60b347';
-               //         document.querySelector('.chances13').style.backgroundColor = '#60b347';
-  correctBackground();
-  correctCheck();
-  correctRemove();
+              //        question13.style.backgroundColor = '#60b347';
+              //        document.querySelector('.question13').style.backgroundColor = '#60b347';
+              //          document.querySelector('.label-score13').style.backgroundColor = '#60b347';
+              //          document.querySelector('.message13').style.backgroundColor = '#60b347';
+              //          document.querySelector('.chances13').style.backgroundColor = '#60b347';
+  
 }
 
 
 const quizwrong = function (){
+  chancesGreaterThan1();
+  incorrectCheck();
   question.style.backgroundColor = "orange";
 
   document.querySelector(".question").style.backgroundColor = "orange";
@@ -711,12 +715,12 @@ question5.style.backgroundColor = "orange";
       //                  document.querySelector('.message13').style.backgroundColor = 'orange';
       //                  document.querySelector('.chances13').style.backgroundColor = 'orange';
  
-  chancesGreaterThan1();
-  incorrectCheck();
+  
 
 }
 
 const quizzero = function (){
+  chancesLessThan1();
   document.querySelector(".chances").style.backgroundColor = "red";
     question.style.backgroundColor = "red";
     document.querySelector(".question").style.backgroundColor = "red";
@@ -778,29 +782,29 @@ mark2.style.backgroundColor = "red";
        document.querySelector('.label-score9').style.backgroundColor = 'red';
        document.querySelector('.message9').style.backgroundColor = 'red';
   
-       question10.style.backgroundColor = 'red';
-       document.querySelector('.question10').style.backgroundColor = 'red';
-         document.querySelector('.label-score10').style.backgroundColor = 'red';
-         document.querySelector('.message10').style.backgroundColor = 'red';
-         document.querySelector('.chances10').style.backgroundColor = 'orange';
+      //  question10.style.backgroundColor = 'red';
+      //  document.querySelector('.question10').style.backgroundColor = 'red';
+      //    document.querySelector('.label-score10').style.backgroundColor = 'red';
+      //    document.querySelector('.message10').style.backgroundColor = 'red';
+      //    document.querySelector('.chances10').style.backgroundColor = 'orange';
 
-         question11.style.backgroundColor = 'black';
-         document.querySelector('.question11').style.backgroundColor = 'red';
-           document.querySelector('.label-score11').style.backgroundColor = 'red';
-           document.querySelector('.message11').style.backgroundColor = 'red';
-           document.querySelector('.chances11').style.backgroundColor = 'orange';
+      //    question11.style.backgroundColor = 'black';
+      //    document.querySelector('.question11').style.backgroundColor = 'red';
+      //      document.querySelector('.label-score11').style.backgroundColor = 'red';
+      //      document.querySelector('.message11').style.backgroundColor = 'red';
+      //      document.querySelector('.chances11').style.backgroundColor = 'orange';
 
-           question12.style.backgroundColor = 'red';
-           document.querySelector('.question12').style.backgroundColor = 'red';
-             document.querySelector('.label-score12').style.backgroundColor = 'red';
-             document.querySelector('.message12').style.backgroundColor = 'red';
-             document.querySelector('.chances12').style.backgroundColor = 'red';
+      //      question12.style.backgroundColor = 'red';
+      //      document.querySelector('.question12').style.backgroundColor = 'red';
+      //        document.querySelector('.label-score12').style.backgroundColor = 'red';
+      //        document.querySelector('.message12').style.backgroundColor = 'red';
+      //        document.querySelector('.chances12').style.backgroundColor = 'red';
     
-             question13.style.backgroundColor = 'red';
-             document.querySelector('.question13').style.backgroundColor = 'red';
-               document.querySelector('.label-score13').style.backgroundColor = 'red';
-               document.querySelector('.message13').style.backgroundColor = 'red';
-               document.querySelector('.chances13').style.backgroundColor = 'red';
-  chancesLessThan1();
+      //        question13.style.backgroundColor = 'red';
+      //        document.querySelector('.question13').style.backgroundColor = 'red';
+      //          document.querySelector('.label-score13').style.backgroundColor = 'red';
+      //          document.querySelector('.message13').style.backgroundColor = 'red';
+      //          document.querySelector('.chances13').style.backgroundColor = 'red';
+  
 
 }
