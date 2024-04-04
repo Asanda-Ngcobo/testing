@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Golos+Text&family=Montserrat&display=swap");
 * {
-  background: white;
+  background: whitesmoke;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,7 +12,10 @@ html {
   scroll-behavior: smooth;
   font-family: "Montserrat", sans-serif;
 }
-
+body{
+  width: 100%;
+  background: whitesmoke;
+}
 .goodluck-message {
   background-color: black;
   color: white;
@@ -144,8 +147,11 @@ text-decoration: underline;
 }
 
 header {
-  height: 100vh;
+  height: auto;
   margin-top: 10%;
+
+  width: 90%;
+  background: whitesmoke;
 }
 
 .header__title {
@@ -153,28 +159,52 @@ header {
   margin-left: 5%;
   gap: 10%;
   width: 90%;
+  background: transparent;
+}
+
+.header__title .image{
+  background: transparent;
+}
+
+.header__title .image video{
+  background: transparent;
 }
 .header__title h4 {
   font-size: 50px;
   padding: 20px;
-  margin-top: 10%;
+  margin-top: 5%;
+  background: transparent;
 
   font-family: "Roboto", "Helvetica Neue", sans-serif;
 }
 
+.text{
+  background: whitesmoke;
+}
+
+.text p{
+  background: whitesmoke;
+}
 .emphasis{
   color: brown;
   font-weight: lighter;
+  background: transparent;
 }
 #commitment h2 {
   display: none;
 }
 
+.collection{
+  background: transparent;
+  width: 80%;
+  margin-left: 10%;
+}
 .collection p {
   font-size: 12px;
   margin-top: 4%;
   margin-left: 5%;
   padding: 10px;
+  background: transparent;
 }
 .image img{
     border-radius: 55%;
@@ -186,7 +216,7 @@ header {
   justify-items: center;
   width: 90%;
   border: 1px solid rgba(0, 0, 0, 0.3);
-  margin-left: 5%;
+  margin: 10%;
   height: auto;
 }
 
@@ -230,9 +260,11 @@ header {
 }
 .section__3{
   width: 100%;
-  background-color: white;
-  height: 90vh;
+  background: white;
+  height: auto;
   border-bottom: 1px solid black;
+  margin-top: 5%;
+  margin-bottom: 10%;
  
 
 }
@@ -247,7 +279,7 @@ width: 80%;
   margin-left: 10%;
   padding: 30px;
 
-  box-shadow: 1px 1px 2px white;
+  
   margin-top: 1%;
   border-radius: 10px;
   height: 80%;
@@ -343,7 +375,7 @@ h2{
   z-index: 1;
   left: 0;
   right: 0;
-  background: whitesmoke;
+  background: white;
   transition: 400ms;
   box-shadow: 0 4px 16px rgba(47, 54, 64, alpha);
 }
@@ -356,7 +388,7 @@ h2{
   margin: 10px;
   padding: 5px;
   font-size: 16px;
-  background: whitesmoke;
+  background: white;
 }
 
 .cookie-container p a {
@@ -386,6 +418,7 @@ footer {
   color: white;
   width: 100%;
   gap: 10%;
+  margin-top: 10%;
 }
 
 footer ul {
@@ -430,7 +463,7 @@ footer ul li a:hover {
 }
 @media screen and (min-width: 300px) and (max-width: 400px) {
   * {
-    background: white;
+    background: whitesmoke;
   }
 
   html {
@@ -481,36 +514,21 @@ footer ul li a:hover {
   .header__title {
     margin-top: 1%;
   }
- 
-  
-   .start__now  {
-    
-    position: fixed;
-    margin-top: 77vh;
-    
-    padding: 10px;
-    background-color: brown;
-    width: 80%;
-    border-radius: 15px;
-    margin-left: 10%;
-    
-    text-align: center;
-    z-index: 2;
-  }
 
- 
   
   .material-icons.outlined  {
     display: flex;
     color: rgba(0, 0, 0, 0.54);
    
     font-size: 12px;
+    background: transparent;
   }
 
   .subject {
     display: flex;
     justify-content: space-between;
     font-size: 12px;
+    background: transparent;
   }
   
   .nav__links{
@@ -541,7 +559,7 @@ footer ul li a:hover {
    .remove{
     display: block;
     color: black;
-    background-color: white;
+    background-color: whitesmoke;
     margin-left: 119%;
     font-size: 30px;
     position: absolute;
@@ -667,6 +685,10 @@ footer ul li a:hover {
     
   }
 
+
+  .underline{
+    background: transparent;
+  }
   .image img{
     border-radius: 55%;
   }
@@ -684,17 +706,20 @@ footer ul li a:hover {
     justify-items: center;
     width: 90%;
     border: 1px solid rgba(0, 0, 0, 0.3);
-    margin-left: 5%;
+    margin: 10%;
+   
     
     
   }
   
   .numbers .data {
     width: 100%;
+    background: transparent;
   }
   
   .numbers .data .materials-icons{
     justify-self: center;
+    
   }
 
 
@@ -785,7 +810,7 @@ button{
     z-index: 10;
     left: 0;
     right: 0;
-    background: whitesmoke;
+    background: white;
     transition: 400ms;
     box-shadow: 0 -2px 16px rgba(47, 54, 64, alpha);
   }
@@ -798,7 +823,7 @@ button{
     margin: 10px;
     padding: 5px;
     font-size: 12px;
-    background-color: whitesmoke;
+    background-color: white;
   }
 
   .cookie-container p a {
@@ -988,7 +1013,7 @@ button{
    .remove{
     display: block;
     color: black;
-    background-color: white;
+    background-color: whitesmoke;
     margin-left: 119%;
     font-size: 35px;
     position: absolute;
@@ -1092,7 +1117,7 @@ button{
 
   header {
    
-    margin-top: 30%;
+    margin-top: 18%;
   }
   .header__title {
     display: block;
@@ -1136,7 +1161,7 @@ button{
     justify-items: center;
     width: 90%;
     border: 1px solid rgba(0, 0, 0, 0.3);
-    margin-left: 5%;
+    margin-left: 10%;
     
     
   }
@@ -1238,7 +1263,7 @@ button{
     z-index: 10;
     left: 0;
     right: 0;
-    background: whitesmoke;
+    background: white;
     transition: 400ms;
     box-shadow: 0 -2px 16px rgba(47, 54, 64, alpha);
   }
@@ -1251,7 +1276,7 @@ button{
     margin: 10px;
     padding: 5px;
     font-size: 12px;
-    background-color: whitesmoke;
+    background-color: white;
   }
 
   .cookie-container p a {
