@@ -428,18 +428,16 @@ width: 100%;
   border-radius: 10px;
   margin-top: 3%;
 }
-.content h3{
-  display: none;
+.content h2{
+  margin-left: 10%;
+  font-size: 20px;
 }
 
 h3{
   margin-left: 10%;
 }
 
-h2{
- 
-  font-size: 20px;
-}
+
 
 
 
