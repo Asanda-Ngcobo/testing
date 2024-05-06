@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
 }
 body {
   z-index: 0;
