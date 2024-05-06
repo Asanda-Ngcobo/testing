@@ -3713,7 +3713,57 @@ footer ul li a img:hover{
     border-radius: 20px;
    }
 
-        
+   footer {
+    background: black;
+    height: 40vh;
+    margin-bottom: 0%;
+    display: flex;
+    color: white;
+    width: 100%;
+    gap: 10%;
+   
+  }
+  
+  footer ul {
+    text-decoration: none;
+    background: black;
+  }
+  footer ul li {
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    background: black;
+  }
+  footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    background: black;
+  }
+  footer ul li a:hover {
+    opacity: 0.8;
+  }
+  
+  .copyright {
+    background: black;
+    color: white;
+    font-size: 12px;
+  }
+  .copyright a {
+    background: black;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  .copyright a:hover {
+    opacity: 0.8;
+  }
+  
+  .current_year {
+    background: black;
+    color: white;
+  } 
 
 
  @media Screen  and (min-width: 300px) and (max-width: 480px) {
@@ -5655,67 +5705,59 @@ cursor: pointer;
     cursor: pointer;
     font-weight: bold;
  }
- footer{
-    background-color: white;
-    height: auto;
-    margin-bottom: 0%;
-    margin-top: 5%;
-    color: black;
-}
-
-footer ul{
-    
-    text-decoration: none;
-}
-footer ul li{
-    display: block;
-    text-decoration: none;
-    list-style: none;
-    padding: 20px;
-    text-align: left;
-    font-size: 10px;
-}
-footer ul li a{
-    color: black;
-    text-decoration: none;
-    
+ footer {
+   background: black;
+   height: 40vh;
+   margin-bottom: 0%;
+   display: block;
+   color: white;
+   width: 100%;
+   gap: 10%;
+ 
+ }
+ 
+ footer ul {
+   text-decoration: none;
+   background: black;
+   justify-content: center;
    
+ }
+ footer ul li {
+   display: block;
+   text-decoration: none;
+   list-style: none;
+   padding: 10px;
+   background: black;
+   justify-content: center;
+ }
+ footer ul li a {
+   color: white;
+   text-decoration: none;
+   font-size: 12px;
+   background: black;
+   justify-content: center;
+ }
+ footer ul li a:hover {
+   opacity: 0.8;
+ }
+ 
+ .copyright {
+   background: black;
+   color: white;
+   font-size: 12px;
+ }
+ .copyright a {
+   background: black;
+   color: white;
+   font-size: 12px;
+   text-decoration: none;
+ }
+ .copyright a:hover {
+   opacity: 0.8;
+ }
+ 
+ .current_year {
+   background: black;
+   color: white;
+ }
 }
-footer ul li a:hover{
-    font-weight: bolder;
-}
-
-footer ul li a img:hover{
-    width: 25px;
-    margin-left: 50%;
-}
-
-.socials{
-    background-color: white;
-width: 100%;
-    height: auto;
-    margin-left: 0;
-    position: fixed;
-    bottom: 0;
-}
-
-     .socials ul{
-    margin-left: 10%;
-}
-.socials ul li {
-    display: inline-block;
-    text-decoration: none;
-    padding: 20px;
-   
-
-    border-radius: 50%;
-}
-
-.copyright{
-    margin-left: 7%;
-}
-}
-
-
-   
-
