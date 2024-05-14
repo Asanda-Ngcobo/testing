@@ -138,6 +138,7 @@ text-decoration: underline;
   color: grey;
 }
 
+
 .science{
   display: none;
 }
@@ -403,7 +404,7 @@ display: flex;
 
 .content{
   display: flex;
-width: 100%;
+width: 80%;
   padding: 10px;
   margin-left: 10%;
   padding: 30px;
@@ -447,6 +448,86 @@ h3{
 .hide {
   display: none;
 }
+
+/* about us */
+
+.emphasis{
+  color: brown;
+}
+
+
+
+.content-section{
+
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 2%;
+  line-height: 26px;
+  border-bottom: 1px solid black ;
+ 
+}
+
+.content-section p{
+  margin-bottom: 15px;
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
+}
+
+.content-section h6{
+  text-align: center;
+}
+.pictures{
+  display: flex;
+}
+.content-section h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.image1{
+  display: flex;
+  margin-left: 10%;
+ 
+}
+
+.image1 p{
+  margin-top: 10%;
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
+.image1 img{
+  margin: 20px;
+  border-radius: 10px;
+  width: 20%;
+  
+
+}
+
+.image{
+  display: flex;
+ margin-left: 10%;
+}
+
+.image p{
+  margin-top: 10%;
+  position: relative;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+.image img{
+  margin: 20px;
+  border-radius: 10px;
+  width: 40%;
+  
+
+}
+
 .cookie-container {
   position: fixed;
   width: 100%;
@@ -812,6 +893,7 @@ footer ul li a:hover {
 .content{
   display: flex;
   margin-left: 0%;
+  width: 100%;
   margin-left: 1.5%;
   
   justify-items: center;
@@ -921,6 +1003,85 @@ margin-left: 5%;
     padding: 20px;
     border-radius: 10px;
   }
+
+  
+/* about us */
+
+.emphasis{
+  color: brown;
+}
+
+
+
+.content-section{
+
+  width: 100%;
+  margin-left: 20%;
+  margin-top: 2%;
+  line-height: 26px;
+
+ 
+}
+
+.content-section p{
+  margin-bottom: 15px;
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
+}
+
+.content-section h6{
+  text-align: center;
+}
+.pictures{
+  display: flex;
+}
+.content-section h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.image1{
+  display: flex;
+ 
+}
+
+.image1 p{
+  margin-top: 10%;
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
+.image1 img{
+  margin: 20px;
+  border-radius: 10px;
+  width: 40%;
+  
+
+}
+
+.image{
+  display: flex;
+ 
+}
+
+.image p{
+  margin-top: 10%;
+  position: relative;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+.image img{
+  margin: 20px;
+  border-radius: 10px;
+  width: 40%;
+  
+
+}
   
   .cookie-container {
     z-index: 1;
@@ -1304,9 +1465,9 @@ margin-left: 5%;
 
 .content{
   display: flex;
-  margin-left: 0%;
+
   margin-left: 1.5%;
-  
+  width: 100%;
   justify-items: center;
 
 }
@@ -1424,6 +1585,103 @@ margin-left: 5%;
   font-size: 12px;
   padding: 20px;
   border-radius: 10px;
+}
+
+
+/* about us */
+
+.emphasis{
+  color: brown;
+}
+
+.summary{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 3%;
+  border-bottom: 1px solid black;
+}
+
+.summary h1{
+  color: black;
+}
+
+.head{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 3%;
+ 
+}
+
+.content-section{
+
+  width: 100%;
+  margin-left: 20%;
+  margin-top: 2%;
+  line-height: 26px;
+  border-bottom: 1px solid black ;
+ 
+}
+
+.content-section p{
+  margin-bottom: 15px;
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
+}
+
+.content-section h6{
+  text-align: center;
+}
+.pictures{
+  display: flex;
+}
+.content-section h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.image1{
+  display: flex;
+ 
+}
+
+.image1 p{
+  margin-top: 10%;
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
+.image1 img{
+  margin: 20px;
+  border-radius: 10px;
+  width: 40%;
+  
+
+}
+
+.image{
+  display: flex;
+ 
+}
+
+.image p{
+  margin-top: 10%;
+  position: relative;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+.image img{
+  margin: 20px;
+  border-radius: 10px;
+  width: 40%;
+  
+
 }
   .cookie-container {
     z-index: 1;
