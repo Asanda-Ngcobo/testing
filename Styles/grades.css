@@ -31,17 +31,17 @@
     font-family: 'Montserrat', sans-serif;
     text-align: left;
     margin-left: 3%;
-    text-decoration: underline brown;
+    text-decoration: underline black;
 }
 
 .covered a{
-    background-color: brown;
+    background-color: black;
     border: none;
     padding: 10px;
     border-radius: 15px;
     cursor: pointer;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .covered a:hover{
@@ -63,7 +63,8 @@ footer {
     color: white;
     width: 100%;
     gap: 10%;
-     margin-top: 5%;
+    margin-top: 5%;
+    
   }
   
   footer ul {
@@ -129,11 +130,11 @@ footer {
 .covered h5{
     font-family: 'Montserrat', sans-serif;
     text-align: left;
-    text-decoration: underline brown ;
+    text-decoration: underline black ;
 }
 
 .covered button{
-    background-color:brown;
+    background-color:black;
     border: none;
     padding: 10px;
     border-radius: 5px;
