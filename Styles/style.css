@@ -33,11 +33,12 @@ nav {
 nav h1 {
   margin-top: 0.3%;
   background: transparent;
-  font-family: "Dancing Script", sans-serif;
+  font-family: "Poetsen One", sans-serif;
   font-weight: 400;
   font-style: normal;
   margin-left: 20px;
-  color: brown;
+  color: black;
+
 }
 
 nav ul li {
@@ -59,6 +60,12 @@ nav ul li {
   
 }
 
+#header .material-icons.share{
+  
+  display: none;
+
+  
+}
 .remove{
   display: none;
 }
@@ -183,10 +190,55 @@ header {
   background: whitesmoke;
 }
 .emphasis{
-  color: brown;
+  color: black;
   font-weight: lighter;
   background: transparent;
 }
+
+.get--started{
+  display: none;
+}
+
+.material-symbols-outlined {
+  font-size: 35px;
+
+}
+
+.play_circle{
+  color: black;
+ 
+}
+
+ul li{
+  list-style: none;
+  font-size: 10px;
+}
+.meet_disciplina{
+  position: fixed;
+  top: 0%;
+  bottom: 0;
+  height: 96vh;
+  width: 100%;
+ 
+  z-index: 20;
+ 
+}
+
+.meet_disciplina video{
+  height: 80vh;
+  margin-top: 0vh;
+  width: 100%;
+  bottom: 0;
+
+}
+.meet_disciplina .goback{
+  font-size: 30px;
+  color: black;
+  margin-top: 8vh;
+  margin-left: 98%;
+  cursor: pointer;
+}
+
 #commitment h2 {
   display: none;
 }
@@ -287,13 +339,13 @@ display: flex;
   border: none;
   width: auto;
   cursor: pointer;
-  background: brown;
+  background: black;
   margin-left: 30%;
 }
 
 .learn--more:hover{
   text-decoration: none;
-  background: rgb(219, 135, 135);
+  background: rgb(135, 171, 219);
 }
 
 #section_2 h2{
@@ -573,8 +625,16 @@ footer ul li a:hover {
   
     
   }
+
+  #header .material-icons.share{
+  
+    display: block;
+  
+    
+  }
   nav h1 {
     margin-top: 3%;
+   
    
   }
   nav ul {
@@ -650,10 +710,10 @@ footer ul li a:hover {
     display: block;
     color: black;
     background-color: whitesmoke;
-    margin-left: 119%;
-    font-size: 30px;
+    margin-left: 112%;
+    font-size: 35px;
     position: absolute;
-    margin-top: -18%;
+    margin-top: -16%;
     font-weight: lighter;
     cursor: pointer;
    }
@@ -745,19 +805,28 @@ footer ul li a:hover {
 
   header {
    
-    margin-top: 30%;
+    margin-top: 40%;
+  }
+
+  .mobile--visible {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
   }
   .header__title {
     display: block;
     margin-left: 5%;
-    
+   
     width: 90%;
   }
   .header__title h4 {
     font-size: 20px;
     padding: 20px;
-    margin-top: 1%;
-    justify-content: center;
+    margin-top: 10%;
+    text-align: center;
+  
   
     font-family: "Roboto", "Helvetica Neue", sans-serif;
   }
@@ -766,16 +835,71 @@ footer ul li a:hover {
     font-size: 10px;
     padding: 20px;
     
+    margin-left: 4%;
   
     
+  }
+
+  .first--media img{
+    width: 100%;
   }
   
   .image{
     margin-left: 12%;
+    display: flex;
+    justify-content:space-between;
     
   }
 
+  .get--started{
+    display: block;
+    background: black;
+    padding: 12px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+  }
 
+  .material-symbols-outlined {
+    font-size: 35px;
+  
+  }
+
+  .play_circle{
+    color: black;
+   
+  }
+
+  ul li{
+    list-style: none;
+    font-size: 10px;
+  }
+
+  .meet_disciplina{
+    position: fixed;
+    top: 0%;
+    bottom: 0;
+    height: 96vh;
+    width: 100%;
+   
+    z-index: 20;
+   
+  }
+
+  .meet_disciplina video{
+    height: 80vh;
+    margin-top: 0vh;
+    width: 100%;
+    bottom: 0;
+
+  }
+  .meet_disciplina .goback{
+    font-size: 30px;
+    color: black;
+    margin-top: 8vh;
+    margin-left: 90%;
+  }
   .underline{
     background: transparent;
   }
@@ -1029,9 +1153,9 @@ margin-left: 5%;
     color: white;
   }
 }
-@media screen and (min-width: 400px) and (max-width: 932px) {
+@media screen and (min-width: 400px) and (max-width: 768px) {
   * {
-    background: white;
+    background: whitesmoke;
   }
 
   html {
@@ -1053,6 +1177,13 @@ margin-left: 5%;
     font-size: 20px;
     font-weight: lighter;
     margin-top: 45%;
+    display: block;
+  
+    
+  }
+
+  #header .material-icons.share{
+  
     display: block;
   
     
@@ -1084,21 +1215,7 @@ margin-left: 5%;
   }
  
   
-   .start__now  {
-    
-    position: fixed;
-    margin-top: 77vh;
-    
-    padding: 10px;
-    background-color: brown;
-    width: 80%;
-    border-radius: 15px;
-    margin-left: 10%;
-    
-    text-align: center;
-    z-index: 2;
-  }
-
+ 
  
   
   .material-icons.outlined  {
@@ -1119,7 +1236,7 @@ margin-left: 5%;
     min-height: 100vh;
     width: 80%;
     top: 8%;
-    background-color: white;
+    background-color: whitesmoke;
    
     font-weight: 700;
     border-top-left-radius: 20px;
@@ -1142,8 +1259,8 @@ margin-left: 5%;
    .remove{
     display: block;
     color: black;
-    background-color: white;
-    margin-left: 119%;
+    background-color: whitesmoke;
+    margin-left: 113%;
     font-size: 35px;
     position: absolute;
     margin-top: -20%;
@@ -1155,7 +1272,7 @@ margin-left: 5%;
         display: block;
         padding: 10px;
         padding: 20px;
-        background-color: white;
+        background-color: whitesmoke;
         margin-left: 0;
         color: black;
         
@@ -1248,17 +1365,26 @@ margin-left: 5%;
    
     margin-top: 18%;
   }
+
+  .mobile--visible {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+  }
   .header__title {
     display: block;
     margin-left: 5%;
-    
+ 
     width: 90%;
   }
   .header__title h4 {
     font-size: 20px;
     padding: 20px;
     margin-top: 1%;
-    justify-content: center;
+    text-align: center;
+   
   
     font-family: "Roboto", "Helvetica Neue", sans-serif;
   }
@@ -1266,16 +1392,79 @@ margin-left: 5%;
   .header__title p {
     font-size: 12px;
     padding: 20px;
-    
+    margin-left: 4%;
   
     
   }
   
  
-
-  .image img{
-    border-radius: 55%;
+  .first--media img{
+    width: 100%;
   }
+  .image{
+    margin-left: 12%;
+    display: flex;
+    justify-content:space-between;
+   background-color: whitesmoke;
+    
+  }
+
+  .get--started{
+    display: block;
+    background: black;
+    padding: 12px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+   
+  }
+
+  .material-symbols-outlined {
+    font-size: 35px;
+    background: whitesmoke;
+  
+  }
+
+  .play_circle{
+    color: black;
+   
+  }
+ 
+  .image .button{
+    background-color: whitesmoke;
+  }
+  ul li{
+    list-style: none;
+    font-size: 10px;
+    background: whitesmoke;
+  }
+  
+  .meet_disciplina{
+    position: fixed;
+    top: 0%;
+    bottom: 0;
+    height: 96vh;
+    width: 100%;
+   
+    z-index: 20;
+   
+  }
+
+  .meet_disciplina video{
+    height: 80vh;
+    margin-top: 0vh;
+    width: 100%;
+    bottom: 0;
+
+  }
+  .meet_disciplina .goback{
+    font-size: 30px;
+    color: black;
+    margin-top: 8vh;
+    margin-left: 90%;
+  }
+  
   .collection p {
     font-size: 12px;
     margin-top: 4%;
@@ -1536,3 +1725,4 @@ margin-left: 5%;
   }
 
 }
+
