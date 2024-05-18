@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: inherit;
     font-size: 12px;
+    font-weight: bolder;
 }
 .home{
     height: 20%;
@@ -29,8 +30,7 @@
 
    
   .interactivept{
-    top: 0;
-    margin-bottom: 10%;
+    display: none;
   }
    body img{
     display: none;
@@ -3825,6 +3825,12 @@ margin-left: 97%;
 display: none;
 }
 
+ 
+.interactivept{
+    top: 0;
+    margin-bottom: 10%;
+    display: block;
+  }
 .periodictabler{
     display: none;
 }
