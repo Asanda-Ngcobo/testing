@@ -536,6 +536,10 @@ h3{
   padding: 15px;
 }
 
+.container a:hover{
+  opacity: 0.6
+}
+
  .media{
   background: transparent;
   display: block;
