@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Golos+Text&family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 * {
   background: whitesmoke;
   margin: 0;
@@ -30,14 +31,16 @@ nav {
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
 }
 
-nav h1 {
-  margin-top: 0.3%;
+nav a {
+  margin-top: 1%;
   background: transparent;
-  font-family: "Dancing Script", sans-serif;
+  font-family: "Poetsen One", sans-serif;
+  font-size: 20px;
   font-weight: 400;
   font-style: normal;
   margin-left: 20px;
-  color: brown;
+  color: black;
+  text-decoration: none;
 }
 
 nav ul li {
@@ -156,7 +159,7 @@ header {
 /* about us */
 
 .emphasis{
-  color: brown;
+  color: aquamarine;
   background: transparent;
 }
 
@@ -167,14 +170,13 @@ header {
   width: 80%;
   margin-left: 10%;
   margin-top: 2%;
-  line-height: 26px;
-  border-bottom: 1px solid black ;
+
  
 }
 
 .content-section p{
   margin-bottom: 15px;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   padding: 30px;
 }
@@ -194,12 +196,12 @@ header {
 
 .image1{
   display: flex;
-  margin-left: 10%;
+  margin-left: 20%;
  
 }
 
 .image1 p{
-  margin-top: 10%;
+  margin-top: 20%;
   position: relative;
   font-size: 20px;
   text-align: center;
@@ -215,11 +217,11 @@ header {
 
 .image{
   display: flex;
- margin-left: 10%;
+ margin-left: 20%;
 }
 
 .image p{
-  margin-top: 10%;
+  margin-top: 20%;
   position: relative;
   font-size: 30px;
   text-align: center;
@@ -535,7 +537,7 @@ footer ul li a:hover {
 /* about us */
 
 .emphasis{
-  color: brown;
+  color: aqua;
   background: transparent;
 }
 
@@ -543,7 +545,7 @@ footer ul li a:hover {
 
 .content-section{
 
-  width: 100%;
+  width: 90%;
   margin-left: 0%;
   margin-top: 2%;
   line-height: 26px;
@@ -553,7 +555,7 @@ footer ul li a:hover {
 
 .content-section p{
   margin-bottom: 15px;
-  font-size: 30px;
+  font-size: 15px;
   text-align: center;
   padding: 30px;
 }
@@ -573,13 +575,15 @@ footer ul li a:hover {
 
 .image1{
   display: flex;
+  margin-left: 10%;
+  width: 90%;
  
 }
 
 .image1 p{
   margin-top: 10%;
   position: relative;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
   padding: 20px;
 }
@@ -599,7 +603,7 @@ footer ul li a:hover {
 .image p{
   margin-top: 10%;
   position: relative;
-  font-size: 30px;
+  font-size: 15px;
   text-align: center;
   padding: 20px;
 }
@@ -931,7 +935,7 @@ footer ul li a:hover {
 /* about us */
 
 .emphasis{
-  color: brown;
+  color: aquamarine;
   background: transparent;
 }
 
@@ -951,7 +955,7 @@ footer ul li a:hover {
 
 .content-section p{
   margin-bottom: 15px;
-  font-size: 30px;
+  font-size: 15px;
   text-align: center;
   padding: 30px;
 }
@@ -977,7 +981,7 @@ footer ul li a:hover {
 .image1 p{
   margin-top: 10%;
   position: relative;
-  font-size: 20px;
+  font-size: 12px;
   text-align: center;
   padding: 20px;
 }
@@ -997,7 +1001,7 @@ footer ul li a:hover {
 .image p{
   margin-top: 10%;
   position: relative;
-  font-size: 30px;
+  font-size: 12px;
   text-align: center;
   padding: 20px;
 }
