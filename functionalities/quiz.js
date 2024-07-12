@@ -64,6 +64,8 @@ let question12 = document.querySelector(".quiz12");
 let question13 = document.querySelector(".quiz13");
 let question14 = document.querySelector(".quiz14");
 let question15 = document.querySelector(".quiz15");
+let question16 = document.querySelector(".quiz16");
+let question17 = document.querySelector(".quiz17");
 
 
 let questions = [
@@ -82,6 +84,8 @@ let questions = [
   question13,
   question14,
   question15,
+  question16,
+  question17,
 ];
 
 
@@ -186,6 +190,10 @@ const random4 = document.querySelectorAll(".random4");
                        question14.style.backgroundColor = 'black';
                      
                        question15.style.backgroundColor = 'black';
+
+                       question16.style.backgroundColor = 'black';
+                     
+                       question17.style.backgroundColor = 'black';
                        
     }
     const quizcorrect = function (){
@@ -227,7 +235,10 @@ const random4 = document.querySelectorAll(".random4");
                       
                 
                          question15.style.backgroundColor = '#60b347';
-                        
+                         question16.style.backgroundColor = '#60b347';
+                      
+                
+                         question17.style.backgroundColor = '#60b347';
       
     }
     
@@ -272,7 +283,10 @@ const random4 = document.querySelectorAll(".random4");
                       
                 
                          question15.style.backgroundColor = 'orange';
-      
+                         question16.style.backgroundColor = 'orange';
+                      
+                
+                         question17.style.backgroundColor = 'orange';
     
     }
     
@@ -330,6 +344,9 @@ const random4 = document.querySelectorAll(".random4");
               
         
                  question15.style.backgroundColor = 'red';
-    
+                 question16.style.backgroundColor = 'red';
+              
+        
+                 question17.style.backgroundColor = 'red';
     }
 
