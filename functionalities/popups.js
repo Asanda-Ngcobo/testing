@@ -1,6 +1,6 @@
-const section1 = document.querySelector(".section1");
-const overlay = document.querySelector(".overlay");
 
+const overlay = document.querySelector(".overlay");
+const section1 = document.querySelector(".section1");
 const section2 = document.querySelector(".section2");
 const section3 = document.querySelector(".section3");
 const section4 = document.querySelector(".section4");
@@ -11,6 +11,9 @@ const section8 = document.querySelector(".section8");
 const section9 = document.querySelector(".section9");
 const section10 = document.querySelector(".section10");
 const section11 = document.querySelector(".section11");
+const section12 = document.querySelector(".section12");
+const section13 = document.querySelector(".section13");
+const section14 = document.querySelector(".section14");
 
 //The Lessons Array
 let lessons = [
@@ -25,6 +28,10 @@ let lessons = [
   section9,
   section10,
   section11,
+  section12,
+  section13,
+  section14,
+
 ];
 
 // Load the IFrame Player API code asynchronously.
