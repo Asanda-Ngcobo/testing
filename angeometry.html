@@ -351,11 +351,11 @@
                 <div class="getout">&times;</div>
               
                 <p class="question"> The two points below, are found in a straight line. Find the gradient or slope of the line. <br>
-                  Round-off your answer into a integer. <br>
+                  Your answer into two decimal places. <br>
                      (<b class="interger">0</b>;<b class="interger1">0</b>),  (<b class="interger2">0</b>; <b class="interger3">0</b>)
                     </p>
                     
-                <input type="" class="input" placeholder="E.g., 3"><b class="check hide">✔️</b><b class="cross hide">❌</b>
+                <input type="" class="input" placeholder="E.g., 3.78"><b class="check hide">✔️</b><b class="cross hide">❌</b>
                
                <button class="answer">Check your answer</button>
                
@@ -370,12 +370,12 @@
                      <div class="quiz2 notshown">
                 <div class="getout">&times;</div>
               
-                <p class="question2"> Now, find the equation of the line <br>
+                <p class="question2"> Now, using the second coordinates, find the equation of the line <br>
                  
                       (<b class="interger">0</b>;<b class="interger1">0</b>),  (<b class="interger2">0</b>; <b class="interger3">0</b>)
                     </p>
                     
-                <input type="" class="input2" placeholder="E.g, y=3x-7"><b class="check hide">✔️</b><b class="cross hide">❌</b>
+                <input type="" class="input2" placeholder="E.g, y=3.78x-7.00"><b class="check hide">✔️</b><b class="cross hide">❌</b>
                
                <button class="answer2">Check your answer</button>
                
@@ -1227,7 +1227,7 @@ test.addEventListener("click", () => {
  
   remove();
   overlay.classList.remove("hide");
-  answer0 = ((interger3 - interger1)/ (interger2 - interger)).toFixed(0)
+  answer0 = ((interger3 - interger1)/ (interger2 - interger)).toFixed(2)
   console.log(answer0);
 });
 // Let chances
