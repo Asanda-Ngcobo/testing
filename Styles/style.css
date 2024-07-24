@@ -537,7 +537,7 @@ h3{
 }
 
 .container a:hover{
-  opacity: 0.6
+  opacity: 0.6;
 }
 
  .media{
@@ -673,16 +673,18 @@ footer ul li a:hover {
     font-weight: lighter;
     margin-top: 45%;
     display: block;
-  
+  color: rgba(31, 175, 168, 0.342);
     
   }
 
   #header .material-icons.share{
   
     display: block;
-  
+    color: rgba(104, 177, 173, 0.342);
     
   }
+
+  
   nav h1 {
     margin-top: 3%;
    
@@ -904,7 +906,7 @@ footer ul li a:hover {
 
   .get--started{
     display: block;
-    background: black;
+    background: rgba(31, 175, 168, 0.342);
     padding: 12px;
     color: white;
     border-radius: 30px;
@@ -918,7 +920,7 @@ footer ul li a:hover {
   }
 
   .play_circle{
-    color: black;
+    color:rgba(31, 175, 168, 0.342);
    
   }
 
@@ -1266,6 +1268,7 @@ margin-left: 5%;
     font-weight: lighter;
     margin-top: 45%;
     display: block;
+    color: rgba(104, 177, 173, 0.342);
   
     
   }
@@ -1273,6 +1276,7 @@ margin-left: 5%;
   #header .material-icons.share{
   
     display: block;
+    color: rgba(104, 177, 173, 0.342);
   
     
   }
@@ -1499,7 +1503,7 @@ margin-left: 5%;
 
   .get--started{
     display: block;
-    background: black;
+    background: rgba(104, 177, 173, 0.342);
     padding: 12px;
     color: white;
     border-radius: 30px;
@@ -1515,7 +1519,7 @@ margin-left: 5%;
   }
 
   .play_circle{
-    color: black;
+    color: rgba(104, 177, 173, 0.342);
    
   }
  
