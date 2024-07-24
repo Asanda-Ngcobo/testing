@@ -205,10 +205,14 @@ header {
 }
 
 .play_circle{
-  color: black;
+  color: rgba(104, 177, 173, 0.342);
+  
  
 }
 
+.play_circle:hover{
+cursor: pointer;
+}
 ul li{
   list-style: none;
   font-size: 10px;
@@ -351,6 +355,7 @@ display: flex;
 #section_2 h2{
   text-align: center;
   padding: 5%;
+  color: rgba(104, 177, 173, 0.342);
   
   background: transparent;
 }
@@ -422,11 +427,13 @@ display: flex;
 }
 
 .div__2 button {
-  padding: 5px;
-  background: black;
+  padding: 8px;
+  background: rgba(104, 177, 173, 0.342);;
   color: white;
   font-weight: bold;
+  border: none;
   border-radius: 10px;
+  font-size: 15px;
 }
 
 .div__2 textarea {
@@ -485,6 +492,7 @@ width: 80%;
 .content h2{
   margin-left: 10%;
   font-size: 20px;
+  color: rgba(104, 177, 173, 0.6);
 }
 
 h3{
@@ -1526,6 +1534,10 @@ margin-left: 5%;
   .image .button{
     background-color: whitesmoke;
   }
+
+  .material-icons .shapes{
+    color: rgba(104, 177, 173, 0.342);
+  }
   ul li{
     list-style: none;
     font-size: 10px;
@@ -1580,9 +1592,13 @@ margin-left: 5%;
     width: 100%;
   }
   
-  .numbers .data .materials-icons{
-    justify-self: center;
+  .numbers .data.material-icons{
+    font-size: 25px;
+    color: red;
   }
+  /* .numbers .data .materials-icons{
+    justify-self: center;
+  } */
 /* #section__1{
   margin-top: 30%;
  
