@@ -146,7 +146,8 @@ color: grey;
 
       .blogs__container{
         display: block;
-   
+       width: 90%;
+          margin-left: 10%;
       
       }
 
