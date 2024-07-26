@@ -178,6 +178,8 @@
     </div>
     </div>
 </div>
+<div class="overlay hide"></div>
+
   <footer>
   
 
@@ -201,7 +203,41 @@
     let thisYear = new Date().getFullYear();
 
     document.querySelector(".current_year").textContent = thisYear;
+
+    const startNowBtn = document.querySelector('.mobile__header .material-icons.menu');
+const links = document.querySelector('.nav__links');
+const remove = document.querySelector('.remove');
+const pages = document.querySelectorAll('.nav__link');
+const subMenu = document.querySelector('.sub__menu-1');
+const overlay = document.querySelector('.overlay');
+
+const openModal = function (){
+  links.classList.remove('notes')
+  links.style.transitionDuration = '200ms';
+  overlay.classList.remove("hide")
+  // startNowBtn.classList.add("notes")
+
+};
+
+const closeModal = function (){
+  links.classList.add('notes')
+  links.style.transitionDuration = '200ms';
+  overlay.classList.add("hide")
+  // startNowBtn.classList.remove("notes")
+}
+
+
+
+startNowBtn.addEventListener('click', openModal, );
+
+
+remove.addEventListener('click', closeModal);
+   
+for(let i = 0; i <pages.length; i++){
+  pages[i].addEventListener('click', closeModal);
+  
+}
   </script>
-  <script src="cookie.js"></script>
+ 
 
 </html>
