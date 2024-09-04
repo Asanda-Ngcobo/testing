@@ -66,7 +66,10 @@ let question14 = document.querySelector(".quiz14");
 let question15 = document.querySelector(".quiz15");
 let question16 = document.querySelector(".quiz16");
 let question17 = document.querySelector(".quiz17");
-
+let question18 = document.querySelector(".quiz18");
+let question19 = document.querySelector(".quiz19");
+let question20 = document.querySelector(".quiz20");
+// let question17 = document.querySelector(".quiz17");
 
 let questions = [
   question,
@@ -86,6 +89,11 @@ let questions = [
   question15,
   question16,
   question17,
+  question18,
+  question19,
+  question20,
+  // question17,
+ // question17,
 ];
 
 
@@ -194,6 +202,10 @@ const random4 = document.querySelectorAll(".random4");
                        question16.style.backgroundColor = 'black';
                      
                        question17.style.backgroundColor = 'black';
+                       question18.style.backgroundColor = 'black';
+                     
+                       question19.style.backgroundColor = 'black';
+                       question20.style.backgroundColor = 'black';
                        
     }
     const quizcorrect = function (){
@@ -239,6 +251,11 @@ const random4 = document.querySelectorAll(".random4");
                       
                 
                          question17.style.backgroundColor = '#60b347';
+                         question18.style.backgroundColor = '#60b347';
+                      
+                
+                         question19.style.backgroundColor = '#60b347';
+                         question20.style.backgroundColor = '#60b347';
       
     }
     
@@ -287,6 +304,11 @@ const random4 = document.querySelectorAll(".random4");
                       
                 
                          question17.style.backgroundColor = 'orange';
+                         question18.style.backgroundColor = 'orange';
+                      
+                
+                         question19.style.backgroundColor = 'orange';
+                         question20.style.backgroundColor = 'orange';
     
     }
     
@@ -348,5 +370,10 @@ const random4 = document.querySelectorAll(".random4");
               
         
                  question17.style.backgroundColor = 'red';
+                 question18.style.backgroundColor = 'red';
+              
+        
+                 question19.style.backgroundColor = 'red';
+                 question20.style.backgroundColor = 'red';
     }
 
