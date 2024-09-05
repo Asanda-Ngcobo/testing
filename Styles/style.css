@@ -194,7 +194,7 @@ header {
   margin-bottom: 20px;
   color: black;
   background: transparent;
-  font-size: 50px;
+  font-size: 64px;
   font-family: 'Poetsen One';
 }
 
@@ -202,7 +202,7 @@ header {
   color: grey;
   font-size: 0.6em;
   margin-bottom: 50px;
-  font-size: 12px;
+  font-size: 16px;
  
 }
 
@@ -258,7 +258,7 @@ ul li{
   margin-left: 10%;
 }
 .collection p {
-  font-size: 12px;
+  font-size: 16px;
   margin-top: 4%;
   margin-left: 5%;
   padding: 10px;
@@ -385,6 +385,11 @@ justify-content: space-between;
 .text{
   background: transparent;
   width: 50%;
+  
+}
+.text p{
+  text-align: center;
+  margin-left: 10px;
 }
 
 .links h1{
@@ -996,11 +1001,11 @@ footer ul li a:hover {
  background-color: white;
 }
 .hero h1{
-  font-size: 30px;
+  font-size: 32px;
 }
 
 .hero p{
-  font-size: 8px;
+  font-size: 12px;
 }
   
 .phone-visuals{
@@ -1645,7 +1650,7 @@ border-radius: 10px;
 }
 
 .hero p{
-  font-size: 8px;
+  font-size: 12px;
 }
   
 .phone-visuals{
