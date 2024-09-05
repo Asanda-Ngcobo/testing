@@ -1,6 +1,6 @@
 .test0 {
   width: 50%;
-  color: black;
+  border-radius: 10px;
 
   background-color: black;
   font-weight: 700;
@@ -19,7 +19,7 @@
 
 .test {
   width: 50%;
-  color: black;
+  border-radius: 10px;
 
   background-color: black;
   font-weight: 700;
@@ -37,7 +37,7 @@
 
 .test2 {
   width: 50%;
-  color: black;
+  border-radius: 10px;
 
   background-color: black;
   font-weight: 700;
@@ -55,7 +55,7 @@
 
 .test3 {
   width: 50%;
-  color: black;
+  border-radius: 10px;
 
   background-color: black;
   font-weight: 700;
@@ -73,7 +73,7 @@
 
 .test4 {
   width: 50%;
-  color: black;
+  border-radius: 10px;
 
   background-color: black;
   font-weight: 700;
@@ -91,7 +91,7 @@
 
 .test5 {
   width: 50%;
-  color: black;
+  border-radius: 10px;
 
   background-color: black;
   font-weight: 700;
@@ -109,7 +109,7 @@
 
 .test6 {
   width: 50%;
-  color: black;
+border-radius: 10px;
 
   background-color: black;
   font-weight: 700;
@@ -1723,7 +1723,7 @@
   cursor: pointer;
 }
 
-.quiz122  {
+.quiz22  {
   height: auto;
   background-color: black;
   border-radius: 10px;
