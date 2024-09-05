@@ -10,6 +10,8 @@
 body {
   z-index: 0;
 }
+
+
 nav {
   width: 100%;
   position: fixed;
@@ -67,7 +69,7 @@ nav h4 {
 }
 .gottobtn {
   border: 1px solid rgba(0, 0, 0, 0.2);
-
+  border-radius: 10px;
   padding: 5px;
   margin: 5px;
   background: black;
@@ -207,26 +209,8 @@ iframe {
   font-size: 16px;
   cursor: pointer;
 }
-.socialmedia {
-  display: flex;
-  font-size: 12px;
-  left: 0;
-  margin-bottom: 3%;
-}
 
-.socialmedia p {
-  padding-left: 20px;
-}
 
-.socialmedia p:first-child {
-  padding-left: 0;
-}
-
-.socialmedia p a {
-  text-decoration: none;
-  color: rgb(50, 139, 216);
-  font-weight: bold;
-}
 .overlay {
   position: absolute;
   top: 0;
@@ -243,7 +227,7 @@ iframe {
   margin-top: 1%;
   margin-bottom: 1%;
   margin-left: 25%;
-
+  border-radius: 10px;
   background-color: white;
   font-family: "Montserrat", sans-serif;
   padding: 10px;
@@ -273,7 +257,8 @@ iframe {
 .notes ul li {
   padding: 10px;
   font-size: 14px;
-  font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
 }
 
 .examples {
@@ -440,16 +425,16 @@ footer ul li a:hover {
   .notes ul li {
     padding: 10px;
     font-size: 14px;
-    font-family: sans-serif;
+    font-family: "Montserrat", sans-serif;
   }
 
   .notesescape {
     position: relative;
-    margin-left: 95%;
+    margin-left: 93%;
     font-weight: bolder;
     z-index: 10;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 30px;
   }
   footer {
     background: black;
