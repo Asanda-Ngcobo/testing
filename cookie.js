@@ -20,23 +20,23 @@
 
 
 
-const startNowBtn = document.querySelector('.mobile__header .material-icons.menu');
+const startNowBtn = document.querySelector('.material-icons.menu');
 const links = document.querySelector('.nav__links');
 const remove = document.querySelector('.remove');
 const pages = document.querySelectorAll('.nav__link');
 const subMenu = document.querySelector('.sub__menu-1');
 const overlay = document.querySelector('.overlay');
-// const getStarted = document.querySelector('.get--started');
-// const playVideo = document.querySelector('.play_circle');
-// const goBack = document.querySelector('.goback');
-// const meetDisciplina = document.querySelector('.meet_disciplina');
+
+const playVideo = document.querySelector('.play_circle');
+const goBack = document.querySelector('.goback');
+const meetDisciplina = document.querySelector('.meet_disciplina');
 
 
 const openModal = function (){
   links.classList.remove('notes')
   links.style.transitionDuration = '200ms';
   overlay.classList.remove("hide")
-  // startNowBtn.classList.add("notes")
+  startNowBtn.style.display = 'none';
 
 };
 
@@ -44,14 +44,12 @@ const closeModal = function (){
   links.classList.add('notes')
   links.style.transitionDuration = '200ms';
   overlay.classList.add("hide")
-  // startNowBtn.classList.remove("notes")
+  startNowBtn.style.display = 'block';
 }
 
 
 
 startNowBtn.addEventListener('click', openModal, );
-
-
 remove.addEventListener('click', closeModal);
    
 for(let i = 0; i <pages.length; i++){
