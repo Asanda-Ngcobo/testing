@@ -196,6 +196,8 @@ header {
   background: transparent;
   font-size: 64px;
   font-family: 'Poetsen One';
+
+  
 }
 
 .hero p{
@@ -746,11 +748,12 @@ footer ul li a:hover {
   }
  
   .mobile__header .material-icons.menu{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: lighter;
-    margin-top: 45%;
+    margin-top: 35%;
     display: block;
-    color: rgba(104, 177, 173, 0.342);
+
+    background: transparent;
   
     
   }
@@ -758,7 +761,7 @@ footer ul li a:hover {
   #header .material-icons.share{
   
     display: block;
-    color: rgba(104, 177, 173, 0.342);
+  
   
     
   }
@@ -766,7 +769,7 @@ footer ul li a:hover {
   #header .material-icons.share a{
   
   font-size: 16px;
-    color: rgba(104, 177, 173, 0.342);
+    color: black;
   text-decoration: none;
     
   }
@@ -842,11 +845,11 @@ footer ul li a:hover {
    .remove{
     display: block;
     color: black;
-    background-color: white;
+    background: transparent;
     margin-left: 90%;
-    font-size: 35px;
+    font-size: 45px;
     position: absolute;
-    margin-top: -15%;
+    margin-top: -12%;
     font-weight: lighter;
     cursor: pointer;
    }
@@ -1392,13 +1395,13 @@ border-radius: 10px;
     justify-content: space-between;
     z-index: 20;
   }
- 
   .mobile__header .material-icons.menu{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: lighter;
-    margin-top: 45%;
+    margin-top: 35%;
     display: block;
-    color: rgba(104, 177, 173, 0.342);
+
+    background: transparent;
   
     
   }
@@ -1406,15 +1409,15 @@ border-radius: 10px;
   #header .material-icons.share{
   
     display: block;
-    color: rgba(104, 177, 173, 0.342);
+  
   
     
   }
 
   #header .material-icons.share a{
   
-  font-size: 16px;
-    color: rgba(104, 177, 173, 0.342);
+  font-size: 18px;
+    color: black;
   text-decoration: none;
     
   }
@@ -1441,7 +1444,10 @@ border-radius: 10px;
     z-index: 5;
   }
 
-  
+  .header__title {
+    margin-top: 1%;
+  }
+ 
   
  
  
@@ -1487,9 +1493,9 @@ border-radius: 10px;
    .remove{
     display: block;
     color: black;
-    background-color: white;
+    background: transparent;
     margin-left: 90%;
-    font-size: 35px;
+    font-size: 45px;
     position: absolute;
     margin-top: -15%;
     font-weight: lighter;
