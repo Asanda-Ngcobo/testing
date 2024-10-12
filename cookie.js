@@ -22,13 +22,13 @@ const overlay = document.querySelector('.overlay');
         cookieButton.addEventListener("click", () => {
             cookieContainer.classList.remove("active");
             localStorage.setItem("cookieBunnerDisplayed", "true");
-            overlay.classList.add("hide");
+            // overlay.classList.add("hide");
         });
         
         setTimeout(()=> {
             if(!localStorage.getItem("cookieBunnerDisplayed")){
         cookieContainer.classList.add("active")
-        overlay.classList.remove("hide");
+        // overlay.classList.remove("hide");
             }
         }, 4000);
     
