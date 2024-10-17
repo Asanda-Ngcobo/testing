@@ -30,7 +30,9 @@
 
    
   .interactivept{
-    display: none;
+    top: 0;
+    margin-bottom: 10%;
+    display: block;
   }
    body img{
     display: none;
@@ -3828,8 +3830,12 @@ display: none;
  
 .interactivept{
     top: 0;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
     display: block;
+  }
+
+  .home{
+    margin-top: 25%;
   }
 .periodictabler{
     display: none;
